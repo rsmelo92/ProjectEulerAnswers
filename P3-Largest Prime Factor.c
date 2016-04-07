@@ -8,7 +8,7 @@ What is the largest prime factor of the number 600851475143 ?
 void prime(unsigned long long pr){
 	unsigned long long i, maior=0,f,aux=1;
 	for(i=2;i<pr;i++){
-		f=pr%i;
+		f=pr%i; 
 		if(f==0){
 			aux=i*aux;
 			if(maior<i){
