@@ -21,7 +21,7 @@ main(){
 		i=i+j;
 		j=aux;
 			count++;
-	}
+	} 
 	if(i%2==0){
 		even=even+i;
 	}
